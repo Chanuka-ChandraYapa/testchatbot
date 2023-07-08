@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning"],
+      "responses": ["Hello! How can I assist you today?", "Hi! How may I help you?", "Hey there! How can I be of service?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Bye", "See you later"],
+      "responses": ["Goodbye! Have a great day!", "Bye! Feel free to reach out anytime.", "See you later! Take care."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses are available?", "Tell me about the courses", "Course offerings"],
+      "responses": ["We offer a wide range of courses in various disciplines. Please let me know your area of interest, and I can provide more details."]
+    },
+    {
+      "tag": "course_details",
+      "patterns": ["Tell me more about [course_name]", "What is [course_name] about?"],
+      "responses": ["[course_name] is a [brief_description] course that covers [course_topics]. It is designed to [course_objectives]."]
+    },
+    {
+      "tag": "admissions",
+      "patterns": ["How can I apply?", "Admission process", "Application requirements"],
+      "responses": ["To apply for admission, please visit our website and follow the instructions provided on the Admissions page. You will find detailed information about the application process and requirements."]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": ["Are there any scholarships available?", "Scholarship opportunities", "Financial aid"],
+      "responses": ["Yes, we offer several scholarship opportunities for eligible students. The scholarships are based on academic performance, financial need, and other criteria. Please visit our Scholarships page on the university website for more information."]
+    },
+    {
+      "tag": "timetable",
+      "patterns": ["Where can I find my timetable?", "Class schedule", "Timetable"],
+      "responses": ["Your timetable can be accessed through the university's student portal. Please log in to the portal using your credentials, and you will find your class schedule and timetable information."]
+    },
+    {
+      "tag": "faculty",
+      "patterns": ["Tell me about the faculty", "Faculty members", "Teaching staff"],
+      "responses": ["Our faculty members are highly qualified and experienced in their respective fields. They are dedicated to providing quality education and mentoring students. We have a diverse team of professors and instructors who bring a wealth of knowledge and expertise to the university."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact the university?", "Contact information", "Phone number", "Email"],
+      "responses": ["You can contact the university by phone at [phone_number] or by sending an email to [email_address]. Our friendly staff will be happy to assist you with any inquiries or concerns you may have."]
+    },
+    {
+      "tag": "default",
+      "patterns": ["I need help", "Can you assist me?", "What services do you provide?"],
+      "responses": ["Sure, I'm here to help! Please let me know what information or assistance you require, and I'll do my best to provide the necessary support."]
+    }
+  ]
+}
